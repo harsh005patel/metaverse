@@ -19,10 +19,10 @@ struct FViewModeSpringArmParams
 	GENERATED_BODY()
 
 	UPROPERTY(EditDefaultsOnly,BlueprintReadOnly)
-	float TargetArmLength;
+	float TargetArmLength = 0.f;
 	
 	UPROPERTY(EditDefaultsOnly,BlueprintReadOnly)
-	FVector TargetLocation;
+	FVector TargetLocation = FVector::ZeroVector;
 };
 
 /**
@@ -43,5 +43,5 @@ protected:
 	UPROPERTY(EditDefaultsOnly,BlueprintReadWrite)
 	TMap<TEnumAsByte<EPlayerViewMode>,FViewModeSpringArmParams> ViewMods;
 private:
-	EPlayerViewMode CurrentViewMode;
+	EPlayerViewMode CurrentViewMode = EPlayerViewMode::ThirdPerson;
 };

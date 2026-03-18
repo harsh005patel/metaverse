@@ -25,6 +25,18 @@ public:
 	mutable FOnRespawnTimerFinishedDelegate OnRespawnTimerFinishedDelegate;
 	mutable FOnPawnDeathStartedDelegate OnPawnDeathStartedDelegate;
 	mutable FOnDeathFinishedDelegate OnPawnDeathFinished;
+
+	UFUNCTION(Exec, Category="Network")
+	void HostListen();
+
+	UFUNCTION(Exec, Category="Network")
+	void HostListenOnPort(int32 Port);
+
+	UFUNCTION(Exec, Category="Network")
+	void JoinServer(const FString& Address);
+
+	UFUNCTION(Exec, Category="Network")
+	void NetworkStatus();
 	
 	void StartDeath();
 
@@ -53,6 +65,8 @@ protected:
 	bool bShouldAutoRestartLevel = true;
 
 private:
+	void ShowNetworkMessage(const FString& Message, const FColor& Color = FColor::Cyan, float Duration = 6.f) const;
+
 	UPROPERTY()
 	FTimerHandle DeathTimerHandle;
 
