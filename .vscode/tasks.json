@@ -1,0 +1,437 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "DroneGame Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DroneGame",
+				"Win64",
+				"Debug",
+				"D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\DroneGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "DroneGame Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DroneGame",
+				"Win64",
+				"Debug",
+				"D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\DroneGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DroneGame Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "DroneGame Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DroneGame",
+				"Win64",
+				"Debug",
+				"D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\DroneGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "DroneGame Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DroneGame",
+				"Win64",
+				"DebugGame",
+				"D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\DroneGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "DroneGame Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DroneGame",
+				"Win64",
+				"DebugGame",
+				"D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\DroneGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DroneGame Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "DroneGame Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DroneGame",
+				"Win64",
+				"DebugGame",
+				"D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\DroneGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "DroneGame Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DroneGame",
+				"Win64",
+				"Development",
+				"D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\DroneGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "DroneGame Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DroneGame",
+				"Win64",
+				"Development",
+				"D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\DroneGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DroneGame Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "DroneGame Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DroneGame",
+				"Win64",
+				"Development",
+				"D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\DroneGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "DroneGame Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DroneGame",
+				"Win64",
+				"Test",
+				"D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\DroneGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "DroneGame Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DroneGame",
+				"Win64",
+				"Test",
+				"D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\DroneGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DroneGame Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "DroneGame Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DroneGame",
+				"Win64",
+				"Test",
+				"D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\DroneGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "DroneGame Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DroneGame",
+				"Win64",
+				"Shipping",
+				"D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\DroneGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "DroneGame Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DroneGame",
+				"Win64",
+				"Shipping",
+				"D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\DroneGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DroneGame Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "DroneGame Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DroneGame",
+				"Win64",
+				"Shipping",
+				"D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\DroneGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "DroneGameEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DroneGameEditor",
+				"Win64",
+				"Debug",
+				"D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\DroneGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "DroneGameEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DroneGameEditor",
+				"Win64",
+				"Debug",
+				"D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\DroneGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DroneGameEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "DroneGameEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DroneGameEditor",
+				"Win64",
+				"Debug",
+				"D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\DroneGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "DroneGameEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DroneGameEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\DroneGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "DroneGameEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DroneGameEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\DroneGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DroneGameEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "DroneGameEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DroneGameEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\DroneGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "DroneGameEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DroneGameEditor",
+				"Win64",
+				"Development",
+				"D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\DroneGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "DroneGameEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"DroneGameEditor",
+				"Win64",
+				"Development",
+				"D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\DroneGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"DroneGameEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		},
+		{
+			"label": "DroneGameEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"DroneGameEditor",
+				"Win64",
+				"Development",
+				"D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\DroneGame.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE_5.1"
+			}
+		}
+	]
+}

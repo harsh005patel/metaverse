@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "DroneGameEditor Editor Win64 Development (DroneGame)",
+            "compilerPath": "D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": [
+                "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame.json"
+            ]
+        },
+        {
+            "name": "Win32",
+            "compilerPath": "D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": [
+                "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_Default.json"
+            ]
+        }
+    ],
+    "version": 4
+}
