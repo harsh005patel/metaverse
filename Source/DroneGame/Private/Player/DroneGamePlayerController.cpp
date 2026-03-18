@@ -32,10 +32,47 @@ namespace DroneGamePlayerControllerDebug
 			return TEXT("UnknownNetMode");
 		}
 	}
+
+	static FString GetWorldTypeString(const UWorld* World)
+	{
+		if (!World)
+		{
+			return TEXT("NoWorld");
+		}
+
+		switch (World->WorldType)
+		{
+		case EWorldType::Game:
+			return TEXT("Game");
+		case EWorldType::PIE:
+			return TEXT("PIE");
+		case EWorldType::GamePreview:
+			return TEXT("GamePreview");
+		case EWorldType::Editor:
+			return TEXT("Editor");
+		case EWorldType::EditorPreview:
+			return TEXT("EditorPreview");
+		default:
+			return TEXT("Other");
+		}
+	}
+
+	static bool IsRemoteMultiplayerUnsafeWorld(const UWorld* World)
+	{
+		return World && (World->WorldType == EWorldType::PIE || World->WorldType == EWorldType::EditorPreview);
+	}
 }
 
 void ADroneGamePlayerController::HostListen()
 {
+	if (DroneGamePlayerControllerDebug::IsRemoteMultiplayerUnsafeWorld(GetWorld()))
+	{
+		ShowNetworkMessage(
+			TEXT("Warning: this is a PIE session. For 2 laptops, host from Standalone Game or a packaged build, not Selected Viewport PIE."),
+			FColor::Orange,
+			10.f);
+	}
+
 	const FString CurrentLevelName = UGameplayStatics::GetCurrentLevelName(this, true);
 	if (CurrentLevelName.IsEmpty())
 	{
@@ -49,6 +86,14 @@ void ADroneGamePlayerController::HostListen()
 
 void ADroneGamePlayerController::HostListenOnPort(int32 Port)
 {
+	if (DroneGamePlayerControllerDebug::IsRemoteMultiplayerUnsafeWorld(GetWorld()))
+	{
+		ShowNetworkMessage(
+			TEXT("Warning: this is a PIE session. For 2 laptops, host from Standalone Game or a packaged build, not Selected Viewport PIE."),
+			FColor::Orange,
+			10.f);
+	}
+
 	const FString CurrentLevelName = UGameplayStatics::GetCurrentLevelName(this, true);
 	if (CurrentLevelName.IsEmpty())
 	{
@@ -65,6 +110,14 @@ void ADroneGamePlayerController::HostListenOnPort(int32 Port)
 
 void ADroneGamePlayerController::JoinServer(const FString& Address)
 {
+	if (DroneGamePlayerControllerDebug::IsRemoteMultiplayerUnsafeWorld(GetWorld()))
+	{
+		ShowNetworkMessage(
+			TEXT("Warning: this client is running in PIE. For 2 laptops, run Standalone Game or a packaged build before joining."),
+			FColor::Orange,
+			10.f);
+	}
+
 	if (Address.IsEmpty())
 	{
 		ShowNetworkMessage(TEXT("JoinServer failed: address is empty. Example: JoinServer 192.168.1.10:7777"), FColor::Red);
@@ -89,9 +142,10 @@ void ADroneGamePlayerController::NetworkStatus()
 
 	ShowNetworkMessage(
 		FString::Printf(
-			TEXT("NetworkStatus | Local=%s | NetMode=%s | Pawn=%s | Map=%s | URL=%s"),
+			TEXT("NetworkStatus | Local=%s | NetMode=%s | WorldType=%s | Pawn=%s | Map=%s | URL=%s"),
 			IsLocalController() ? TEXT("true") : TEXT("false"),
 			*DroneGamePlayerControllerDebug::GetNetModeString(World),
+			*DroneGamePlayerControllerDebug::GetWorldTypeString(World),
 			*PawnName,
 			World ? *World->GetMapName() : TEXT("NoMap"),
 			*UrlString),
@@ -148,8 +202,9 @@ void ADroneGamePlayerController::BeginPlay()
 
 	ShowNetworkMessage(
 		FString::Printf(
-			TEXT("Controller ready. NetMode=%s. Use HostListen / HostListenOnPort 7777 / JoinServer 192.168.x.x:7777 / NetworkStatus"),
-			*DroneGamePlayerControllerDebug::GetNetModeString(GetWorld())),
+			TEXT("Controller ready. NetMode=%s WorldType=%s. Use HostListen / HostListenOnPort 7777 / JoinServer 192.168.x.x:7777 / NetworkStatus"),
+			*DroneGamePlayerControllerDebug::GetNetModeString(GetWorld()),
+			*DroneGamePlayerControllerDebug::GetWorldTypeString(GetWorld())),
 		FColor::Green,
 		8.f);
 }
