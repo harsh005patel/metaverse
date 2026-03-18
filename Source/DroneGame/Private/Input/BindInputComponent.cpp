@@ -44,8 +44,14 @@ void UBindInputComponent::SetupPlayerInput(UInputComponent* PlayerInputComponent
 	InputSubsystem->AddMappingContext(DefaultMappingContext,0);
 
 	EnhancedInputComponent->BindAction(MoveInputAction,ETriggerEvent::Triggered,this,&ThisClass::Input_Move);
+	EnhancedInputComponent->BindAction(MoveInputAction,ETriggerEvent::Completed,this,&ThisClass::Input_Move);
+	EnhancedInputComponent->BindAction(MoveInputAction,ETriggerEvent::Canceled,this,&ThisClass::Input_Move);
 	EnhancedInputComponent->BindAction(LookInputAction,ETriggerEvent::Triggered,this,&ThisClass::Input_Look);
+	EnhancedInputComponent->BindAction(LookInputAction,ETriggerEvent::Completed,this,&ThisClass::Input_Look);
+	EnhancedInputComponent->BindAction(LookInputAction,ETriggerEvent::Canceled,this,&ThisClass::Input_Look);
 	EnhancedInputComponent->BindAction(ThrottleInputAction,ETriggerEvent::Triggered,this,&ThisClass::Input_Throttle);
+	EnhancedInputComponent->BindAction(ThrottleInputAction,ETriggerEvent::Completed,this,&ThisClass::Input_Throttle);
+	EnhancedInputComponent->BindAction(ThrottleInputAction,ETriggerEvent::Canceled,this,&ThisClass::Input_Throttle);
 	EnhancedInputComponent->BindAction(ChangeViewModeInputAction,ETriggerEvent::Triggered,this,&ThisClass::Input_ChangeViewMode);
 	EnhancedInputComponent->BindAction(FireInputAction,ETriggerEvent::Triggered,this,&ThisClass::Input_Fire);
 }

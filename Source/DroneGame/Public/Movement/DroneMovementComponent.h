@@ -90,6 +90,9 @@ protected:
 	float MaxThrottle = 250.f;
 
 private:
+	void UpdateInputTimestamp(float& Timestamp) const;
+	void ClearExpiredRemoteInputs(const APawn* OwningPawn);
+
 	UPROPERTY()
 	UPrimitiveComponent* ComponentToMove;
 
@@ -116,4 +119,11 @@ private:
 
 	UPROPERTY(BlueprintReadOnly,meta=(AllowPrivateAccess))
 	bool bEnableMovement = true;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, meta=(AllowPrivateAccess, ClampMin="0.01"))
+	float RemoteInputTimeout = 0.15f;
+
+	float LastMoveInputTime = -1.f;
+	float LastLookInputTime = -1.f;
+	float LastThrottleInputTime = -1.f;
 };

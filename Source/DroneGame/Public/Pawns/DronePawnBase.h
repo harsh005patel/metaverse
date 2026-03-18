@@ -29,13 +29,7 @@ protected:
 	virtual void BeginPlay() override;
 
 	UFUNCTION(Server, Unreliable)
-	void ServerHandleMoveInput(const FVector& Value);
-
-	UFUNCTION(Server, Unreliable)
-	void ServerHandleLookInput(const FVector& Value);
-
-	UFUNCTION(Server, Unreliable)
-	void ServerHandleThrottleInput(float Value);
+	void ServerSetControlState(const FVector& MoveValue, const FVector& LookValue, float ThrottleValue);
 
 	UPROPERTY(EditDefaultsOnly,BlueprintReadOnly)
 	TObjectPtr<UBoxComponent> BoxComponent;
@@ -48,4 +42,11 @@ protected:
 
 	UPROPERTY(EditDefaultsOnly,BlueprintReadOnly)
 	TObjectPtr<UDroneMovementComponent> DroneMovementComponent;
+
+private:
+	void SendControlStateToServer();
+
+	FVector CurrentMoveInput = FVector::ZeroVector;
+	FVector CurrentLookInput = FVector::ZeroVector;
+	float CurrentThrottleInput = 0.f;
 };

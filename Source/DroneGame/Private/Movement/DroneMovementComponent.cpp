@@ -14,16 +14,19 @@ UDroneMovementComponent::UDroneMovementComponent(const FObjectInitializer& Objec
 void UDroneMovementComponent::AddDroneMovementInput(const FVector& Value)
 {
 	MoveInput = Value;
+	UpdateInputTimestamp(LastMoveInputTime);
 }
 
 void UDroneMovementComponent::AddDroneLookInput(const FVector& Value)
 {
 	LookInput = Value;
+	UpdateInputTimestamp(LastLookInputTime);
 }
 
 void UDroneMovementComponent::AddDroneThrottle(float Value)
 {
-	ThrottleInput += Value;
+	ThrottleInput = Value;
+	UpdateInputTimestamp(LastThrottleInputTime);
 }
 
 void UDroneMovementComponent::SetComponentToMove(UPrimitiveComponent* InComp)
@@ -106,6 +109,45 @@ void UDroneMovementComponent::EnableMovement()
 	bEnableMovement = true;
 }
 
+void UDroneMovementComponent::UpdateInputTimestamp(float& Timestamp) const
+{
+	if (const UWorld* World = GetWorld())
+	{
+		Timestamp = World->GetTimeSeconds();
+	}
+}
+
+void UDroneMovementComponent::ClearExpiredRemoteInputs(const APawn* OwningPawn)
+{
+	if (!OwningPawn || !OwningPawn->HasAuthority() || OwningPawn->IsLocallyControlled())
+	{
+		return;
+	}
+
+	const UWorld* World = GetWorld();
+	if (!World)
+	{
+		return;
+	}
+
+	const float CurrentTime = World->GetTimeSeconds();
+
+	if (LastMoveInputTime >= 0.f && (CurrentTime - LastMoveInputTime) > RemoteInputTimeout)
+	{
+		MoveInput = FVector::ZeroVector;
+	}
+
+	if (LastLookInputTime >= 0.f && (CurrentTime - LastLookInputTime) > RemoteInputTimeout)
+	{
+		LookInput = FVector::ZeroVector;
+	}
+
+	if (LastThrottleInputTime >= 0.f && (CurrentTime - LastThrottleInputTime) > RemoteInputTimeout)
+	{
+		ThrottleInput = 0.f;
+	}
+}
+
 void UDroneMovementComponent::BeginPlay()
 {
 	Super::BeginPlay();
@@ -160,6 +202,8 @@ void UDroneMovementComponent::TickComponent(float DeltaTime, ELevelTick TickType
 		CurrentYawVelocity = 0.f;
 		return;
 	}
+
+	ClearExpiredRemoteInputs(OwningPawn);
 	
 	if (!ComponentToMove)
 	{
@@ -231,8 +275,4 @@ void UDroneMovementComponent::TickComponent(float DeltaTime, ELevelTick TickType
 	{
 		ThrusterComponent->ThrustStrength = 0.f;
 	}
-
-	ThrottleInput = 0.f;
-	MoveInput = FVector::ZeroVector;
-	LookInput = FVector::ZeroVector;
 }

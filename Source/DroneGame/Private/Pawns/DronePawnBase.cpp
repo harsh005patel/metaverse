@@ -44,6 +44,8 @@ void ADronePawnBase::HandleMoveInput(const FVector& Value)
 		return;
 	}
 
+	CurrentMoveInput = Value;
+
 	if (IsLocallyControlled())
 	{
 		DroneMovementComponent->AddDroneMovementInput(Value);
@@ -51,7 +53,7 @@ void ADronePawnBase::HandleMoveInput(const FVector& Value)
 
 	if (!HasAuthority())
 	{
-		ServerHandleMoveInput(Value);
+		SendControlStateToServer();
 	}
 }
 
@@ -62,6 +64,8 @@ void ADronePawnBase::HandleLookInput(const FVector& Value)
 		return;
 	}
 
+	CurrentLookInput = Value;
+
 	if (IsLocallyControlled())
 	{
 		DroneMovementComponent->AddDroneLookInput(Value);
@@ -69,7 +73,7 @@ void ADronePawnBase::HandleLookInput(const FVector& Value)
 
 	if (!HasAuthority())
 	{
-		ServerHandleLookInput(Value);
+		SendControlStateToServer();
 	}
 }
 
@@ -80,6 +84,8 @@ void ADronePawnBase::HandleThrottleInput(float Value)
 		return;
 	}
 
+	CurrentThrottleInput = Value;
+
 	if (IsLocallyControlled())
 	{
 		DroneMovementComponent->AddDroneThrottle(Value);
@@ -87,30 +93,22 @@ void ADronePawnBase::HandleThrottleInput(float Value)
 
 	if (!HasAuthority())
 	{
-		ServerHandleThrottleInput(Value);
+		SendControlStateToServer();
 	}
 }
 
-void ADronePawnBase::ServerHandleMoveInput_Implementation(const FVector& Value)
+void ADronePawnBase::SendControlStateToServer()
 {
-	if (DroneMovementComponent)
-	{
-		DroneMovementComponent->AddDroneMovementInput(Value);
-	}
+	ServerSetControlState(CurrentMoveInput, CurrentLookInput, CurrentThrottleInput);
 }
 
-void ADronePawnBase::ServerHandleLookInput_Implementation(const FVector& Value)
+void ADronePawnBase::ServerSetControlState_Implementation(const FVector& MoveValue, const FVector& LookValue,
+	float ThrottleValue)
 {
 	if (DroneMovementComponent)
 	{
-		DroneMovementComponent->AddDroneLookInput(Value);
-	}
-}
-
-void ADronePawnBase::ServerHandleThrottleInput_Implementation(float Value)
-{
-	if (DroneMovementComponent)
-	{
-		DroneMovementComponent->AddDroneThrottle(Value);
+		DroneMovementComponent->AddDroneMovementInput(MoveValue);
+		DroneMovementComponent->AddDroneLookInput(LookValue);
+		DroneMovementComponent->AddDroneThrottle(ThrottleValue);
 	}
 }
