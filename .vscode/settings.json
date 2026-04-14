@@ -1,0 +1,14 @@
+{
+  "files.watcherExclude": {
+    "**/Binaries/**": true,
+    "**/Intermediate/**": true
+  },
+  "search.exclude": {
+    "**/Binaries/**": true,
+    "**/Intermediate/**": true
+  },
+  "C_Cpp.files.exclude": {
+    "**/Binaries/**": true,
+    "**/Intermediate/**": true
+  }
+}

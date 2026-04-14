@@ -2,7 +2,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\DroneGame.Build.cs",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -10,7 +10,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\Camera\\DronePlayerCameraManager.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -18,7 +18,15 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\DroneGame.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
+		],
+		"directory": "D:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\DroneGameInstance.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -26,7 +34,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\FireSystem\\FireComponentBase.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -34,7 +42,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\FireSystem\\ProjectileBase.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -42,7 +50,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\FireSystem\\ProjectileFireComponent.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -50,7 +58,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\GameModes\\DroneGameGameModeBase.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -58,7 +66,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\Input\\BindInputComponent.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -66,7 +74,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\Input\\RemoveDeltaModifier.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -74,7 +82,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\Movement\\DroneMovementComponent.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -82,7 +90,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\Pawns\\DamagablePawn.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -90,7 +98,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\Pawns\\DamageComponent.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -98,7 +106,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\Pawns\\DroneDamageComponent.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -106,7 +114,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\Pawns\\DronePawnBase.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -114,7 +122,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\Pawns\\HealthComponent.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -122,15 +130,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\Pawns\\InteractComponent.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
-			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
-		],
-		"directory": "D:\\UE_5.1\\Engine\\Source"
-	},
-	{
-		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\Pawns\\TurretPawn.cpp",
-		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -138,7 +138,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\Pickups\\AmmoBonusItem.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -146,7 +146,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\Pickups\\HealthBonusItem.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -154,7 +154,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\Pickups\\InteractableItem.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -162,7 +162,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\Pickups\\InteractableItemBase.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -170,7 +170,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\Player\\DroneGamePlayerController.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -178,7 +178,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\Player\\DronePlayerPawn.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -186,7 +186,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\UI\\AmmoCounterWidget.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -194,7 +194,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\UI\\DeathScreenWidget.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -202,7 +202,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\UI\\DroneGameWidgetBase.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -210,7 +210,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\UI\\DroneThrottleWidget.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -218,7 +218,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\UI\\HealthBarWidget.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -226,7 +226,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\UI\\VerticalProgressBar.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -234,7 +234,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Private\\UI\\VictoryWidget.cpp",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -242,7 +242,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\Camera\\DronePlayerCameraManager.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -250,7 +250,15 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\DroneGame.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
+		],
+		"directory": "D:\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\DroneGameInstance.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -258,7 +266,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\DroneGameLogs.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -266,7 +274,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\FireSystem\\FireComponentBase.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -274,7 +282,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\FireSystem\\ProjectileBase.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -282,7 +290,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\FireSystem\\ProjectileFireComponent.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -290,7 +298,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\GameModes\\DroneGameGameModeBase.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -298,7 +306,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\Input\\BindInputComponent.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -306,7 +314,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\Input\\RemoveDeltaModifier.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -314,7 +322,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\Movement\\DroneMovementComponent.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -322,7 +330,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\Pawns\\DamagablePawn.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -330,7 +338,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\Pawns\\DamageComponent.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -338,7 +346,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\Pawns\\DroneDamageComponent.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -346,7 +354,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\Pawns\\DronePawnBase.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -354,7 +362,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\Pawns\\HealthComponent.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -362,15 +370,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\Pawns\\InteractComponent.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
-			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
-		],
-		"directory": "D:\\UE_5.1\\Engine\\Source"
-	},
-	{
-		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\Pawns\\TurretPawn.h",
-		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -378,7 +378,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\Pickups\\AmmoBonusItem.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -386,7 +386,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\Pickups\\HealthBonusItem.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -394,7 +394,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\Pickups\\InteractableItem.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -402,7 +402,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\Pickups\\InteractableItemBase.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -410,7 +410,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\Player\\DroneGamePlayerController.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -418,7 +418,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\Player\\DronePlayerPawn.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -426,7 +426,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\UI\\AmmoCounterWidget.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -434,7 +434,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\UI\\DeathScreenWidget.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -442,7 +442,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\UI\\DroneGameWidgetBase.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -450,7 +450,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\UI\\DroneThrottleWidget.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -458,7 +458,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\UI\\HealthBarWidget.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -466,7 +466,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\UI\\VerticalProgressBar.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"
@@ -474,7 +474,7 @@
 	{
 		"file": "D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\Source\\DroneGame\\Public\\UI\\VictoryWidget.h",
 		"arguments": [
-			"D:\\New folder\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe",
 			"@D:\\METAVERSE\\DroneGame-Build\\DroneGame-Build\\.vscode\\compileCommands_DroneGame\\DroneGame.256.rsp"
 		],
 		"directory": "D:\\UE_5.1\\Engine\\Source"

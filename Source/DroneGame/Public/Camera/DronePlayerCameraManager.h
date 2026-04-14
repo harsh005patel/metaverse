@@ -35,13 +35,13 @@ class DRONEGAME_API ADronePlayerCameraManager : public APlayerCameraManager
 
 public:
 	UFUNCTION(BlueprintCallable)
-	void ChangeViewMode(TEnumAsByte<EPlayerViewMode> PlayerViewMode);
+	void ChangeViewMode(EPlayerViewMode PlayerViewMode);
 	
 	UFUNCTION(BlueprintPure)
 	EPlayerViewMode GetCurrentViewMode() const {return CurrentViewMode;}
 protected:
 	UPROPERTY(EditDefaultsOnly,BlueprintReadWrite)
-	TMap<TEnumAsByte<EPlayerViewMode>,FViewModeSpringArmParams> ViewMods;
+	TMap<EPlayerViewMode,FViewModeSpringArmParams> ViewMods;
 private:
 	EPlayerViewMode CurrentViewMode = EPlayerViewMode::ThirdPerson;
 };

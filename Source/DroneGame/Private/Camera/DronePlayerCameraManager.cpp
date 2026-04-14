@@ -6,7 +6,7 @@
 #include "DroneGameLogs.h"
 #include "GameFramework/SpringArmComponent.h"
 
-void ADronePlayerCameraManager::ChangeViewMode(TEnumAsByte<EPlayerViewMode> PlayerViewMode)
+void ADronePlayerCameraManager::ChangeViewMode(EPlayerViewMode PlayerViewMode)
 {
 	const APlayerController* PlayerController = GetOwningPlayerController();
 	if (!PlayerController)
