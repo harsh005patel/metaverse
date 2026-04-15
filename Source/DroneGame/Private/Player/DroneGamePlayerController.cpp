@@ -153,6 +153,11 @@ void ADroneGamePlayerController::NetworkStatus()
 		8.f);
 }
 
+void ADroneGamePlayerController::ClientShowGameMessage_Implementation(const FString& Message, FColor Color, float Duration)
+{
+	ShowNetworkMessage(Message, Color, Duration);
+}
+
 void ADroneGamePlayerController::StartDeath()
 {
 	// Disabled in simplified drone-only mode.

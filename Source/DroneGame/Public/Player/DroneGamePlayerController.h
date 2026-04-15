@@ -37,6 +37,9 @@ public:
 
 	UFUNCTION(Exec, Category="Network")
 	void NetworkStatus();
+
+	UFUNCTION(Client, Reliable)
+	void ClientShowGameMessage(const FString& Message, FColor Color, float Duration);
 	
 	void StartDeath();
 
